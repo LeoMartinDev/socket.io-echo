@@ -1,0 +1,15 @@
+{
+  "name": "socket-io-echo",
+  "version": "1.0.0",
+  "description": "A simple Socket.io echo server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Léo MARTIN <leo1.martin@epitech.eu>",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
