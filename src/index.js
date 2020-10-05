@@ -15,7 +15,7 @@ function startServer({ port }) {
 
             const data = packet || [];
 
-            socket.emit(eventName, ...data);
+            socket.emit(eventName, data);
 
             next();
           });
